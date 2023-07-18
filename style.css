@@ -1,0 +1,99 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+.main-title{
+    width: 50%;
+}
+.main-title>h1{
+    font-size: 45px;
+    font-weight: 700;
+    padding-left: 10px;
+    border-left: 5px solid #FF900E;
+    margin-bottom: 24px;
+}
+
+.main-title>p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+
+}
+
+/* title box practice. */
+
+
+.main{
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-box{
+
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+   width: 80%;
+   margin-bottom: 20px;
+}
+
+.title-box h1{
+
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.title-box p{
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.main-img{
+    width: 50%;
+}
+
+.main-img img{
+    width: 80%;
+    margin: auto;
+}
+
+
+/* code for responsive */
+
+@media screen and (max-width:450px){
+
+    
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-title{
+    width: 100%;
+}
+
+.main-img{
+    width: 100%;
+}
+
+.main-img img{
+    width: 100%;
+    
+}
+
+.title-box{
+   width: 100%;
+}
+    
+}
